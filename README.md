@@ -23,4 +23,6 @@ java
 
 查看 <a href="https://github.com/diwand/YapiIdeaUploadPlugin/wiki/%E5%BF%AB%E9%80%9F%E4%BD%BF%E7%94%A8">wiki</a> 
 
+⚠️*注意*：在原版的基础上增加了接口的解析，添加了[Message](https://github.com/cofcool/chaos-server/blob/master/common/src/main/java/net/cofcool/chaos/server/common/core/Message.java) 和 [Page](https://github.com/cofcool/chaos-server/blob/master/common/src/main/java/net/cofcool/chaos/server/common/core/Page.java) 的描述文档
+
 
