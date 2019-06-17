@@ -12,7 +12,6 @@ import java.nio.channels.ReadableByteChannel;
 import java.util.Enumeration;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 

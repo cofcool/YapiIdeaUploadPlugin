@@ -2,7 +2,6 @@ package com.qbb.dto;
 
 import com.google.common.base.Strings;
 import com.qbb.constant.YapiConstant;
-
 import java.io.Serializable;
 
 /**

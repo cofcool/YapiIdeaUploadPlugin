@@ -4,18 +4,25 @@ import com.google.common.base.Strings;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.qbb.constant.YapiConstant;
-import com.qbb.dto.*;
+import com.qbb.dto.YapiCatMenuParam;
+import com.qbb.dto.YapiCatResponse;
+import com.qbb.dto.YapiHeaderDTO;
+import com.qbb.dto.YapiResponse;
+import com.qbb.dto.YapiSaveParam;
 import com.qbb.util.HttpClientUtil;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.entity.mime.MultipartEntityBuilder;
 import org.apache.http.entity.mime.content.FileBody;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.*;
 
 /**
  * 上传到yapi

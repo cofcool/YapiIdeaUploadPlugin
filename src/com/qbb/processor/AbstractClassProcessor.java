@@ -3,10 +3,9 @@ package com.qbb.processor;
 import com.intellij.psi.PsiAnnotation;
 import com.intellij.psi.PsiClass;
 import com.qbb.util.PsiAnnotationSearchUtil;
-import org.jetbrains.annotations.NotNull;
-
 import java.util.ArrayList;
 import java.util.Collection;
+import org.jetbrains.annotations.NotNull;
 
 /**
  * Base lombok processor class for class annotations

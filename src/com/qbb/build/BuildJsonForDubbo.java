@@ -1,4 +1,4 @@
-package com.qbb.build;
+package com.qbb.processor;
 
 import com.google.common.base.Strings;
 import com.google.gson.Gson;
