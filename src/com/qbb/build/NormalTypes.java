@@ -1,4 +1,4 @@
-package com.qbb.processor;
+package com.qbb.build;
 
 import org.jetbrains.annotations.NonNls;
 

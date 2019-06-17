@@ -1,7 +1,7 @@
 <idea-plugin>
-  <id>YapiUpload</id>
-  <name>YapiUpload</name>
-  <version>1.6.8</version>
+  <id>COLYapiUpload</id>
+  <name>COLYapiUpload</name>
+  <version>1.6.9-c</version>
   <vendor email="chengsheng@qbb6.com" url="http://www.qbb6.com">QBB</vendor>
 
   <description><![CDATA[
@@ -89,8 +89,8 @@
 
   <actions>
     <!-- Add your actions here -->
-    <action id="UploadToYapi" class="com.qbb.interaction.UploadToYapi" text="UploadToYapi"
-            description="UploadToYapi">
+    <action id="COLYapiUpload" class="com.qbb.interaction.UploadToYapi" text="COLYapiUpload"
+            description="COLYapiUpload">
       <add-to-group group-id="EditorLangPopupMenu" anchor="first"/>
       <keyboard-shortcut keymap="$default" first-keystroke="alt u"/>
     </action>
